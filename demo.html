@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Builder Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .demo-section { animation: fadeInUp 0.6s ease-out; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <div class="gradient-bg text-white py-20">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h1 class="text-5xl font-bold mb-6">AI Resume Builder Pro</h1>
+            <p class="text-xl mb-8">Create professional resumes with AI-powered suggestions using 100% free APIs</p>
+            <div class="flex justify-center space-x-4">
+                <a href="index.html" class="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Try Demo
+                </a>
+                <a href="#features" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16">Features Powered by Free APIs</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- AI Content Suggestions -->
+                <div class="demo-section bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                        <i data-feather="zap" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">AI Content Suggestions</h3>
+                    <p class="text-gray-600 mb-4">Get intelligent suggestions to improve your resume content using OpenAI's free API.</p>
+                    <div class="bg-blue-50 p-3 rounded-lg">
+                        <p class="text-sm text-blue-800">
+                            <strong>💡 Example:</strong> "Developed web applications" → "Developed 5+ web applications using React and Node.js, improving user engagement by 30%"
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ATS Compatibility -->
+                <div class="demo-section bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                        <i data-feather="check-circle" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">ATS Compatibility Check</h3>
+                    <p class="text-gray-600 mb-4">Real-time scoring for Applicant Tracking System compatibility using Resume Parser API.</p>
+                    <div class="bg-green-50 p-3 rounded-lg">
+                        <p class="text-sm text-green-800">
+                            <strong>✅ Score:</strong> 85% ATS Compatible
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Analytics Dashboard -->
+                <div class="demo-section bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                        <i data-feather="bar-chart-2" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Real-Time Analytics</h3>
+                    <p class="text-gray-600 mb-4">Track resume performance with live analytics and insights.</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>Readability:</span>
+                            <span class="font-semibold text-green-600">92%</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span>Impact Score:</span>
+                            <span class="font-semibold text-blue-600">78%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PDF Export -->
+                <div class="demo-section bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                        <i data-feather="download" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">PDF Export</h3>
+                    <p class="text-gray-600 mb-4">Export your resume as a professional PDF using client-side generation.</p>
+                    <div class="bg-purple-50 p-3 rounded-lg">
+                        <p class="text-sm text-purple-800">
+                            <strong>📄 Format:</strong> High-quality PDF with print-ready layout
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Live Preview -->
+                <div class="demo-section bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                        <i data-feather="eye" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Live Preview</h3>
+                    <p class="text-gray-600 mb-4">See changes instantly as you type with real-time preview.</p>
+                    <div class="bg-yellow-50 p-3 rounded-lg">
+                        <p class="text-sm text-yellow-800">
+                            <strong>⚡ Real-time:</strong> Instant updates as you edit
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Professional Templates -->
+                <div class="demo-section bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                        <i data-feather="layout" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Professional Templates</h3>
+                    <p class="text-gray-600 mb-4">Choose from multiple ATS-optimized templates.</p>
+                    <div class="bg-indigo-50 p-3 rounded-lg">
+                        <p class="text-sm text-indigo-800">
+                            <strong>🎨 Templates:</strong> Modern, Creative, Minimal
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- API Integration Section -->
+    <div class="bg-gray-100 py-20">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16">Free API Integrations</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- OpenAI API -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-3">
+                            <i data-feather="cpu" class="w-5 h-5 text-green-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">OpenAI API</h3>
+                            <p class="text-sm text-gray-600">Free Tier: 3 requests/minute</p>
+                        </div>
+                    </div>
+                    <ul class="text-sm text-gray-700 space-y-2">
+                        <li>• Content improvement suggestions</li>
+                        <li>• Professional writing assistance</li>
+                        <li>• Keyword optimization</li>
+                        <li>• Grammar and style improvements</li>
+                    </ul>
+                </div>
+
+                <!-- Resume Parser API -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
+                            <i data-feather="file-text" class="w-5 h-5 text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">Resume Parser API</h3>
+                            <p class="text-sm text-gray-600">Free Tier: 5 requests/month</p>
+                        </div>
+                    </div>
+                    <ul class="text-sm text-gray-700 space-y-2">
+                        <li>• ATS compatibility checking</li>
+                        <li>• Resume structure analysis</li>
+                        <li>• Keyword density analysis</li>
+                        <li>• Format validation</li>
+                    </ul>
+                </div>
+
+                <!-- Hugging Face API -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-3">
+                            <i data-feather="brain" class="w-5 h-5 text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">Hugging Face API</h3>
+                            <p class="text-sm text-gray-600">Free Tier: Unlimited</p>
+                        </div>
+                    </div>
+                    <ul class="text-sm text-gray-700 space-y-2">
+                        <li>• Text sentiment analysis</li>
+                        <li>• Content classification</li>
+                        <li>• Language processing</li>
+                        <li>• AI model inference</li>
+                    </ul>
+                </div>
+
+                <!-- Google Analytics -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center mr-3">
+                            <i data-feather="trending-up" class="w-5 h-5 text-orange-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">Google Analytics</h3>
+                            <p class="text-sm text-gray-600">Free Forever</p>
+                        </div>
+                    </div>
+                    <ul class="text-sm text-gray-700 space-y-2">
+                        <li>• User behavior tracking</li>
+                        <li>• Feature usage analytics</li>
+                        <li>• Performance monitoring</li>
+                        <li>• Conversion tracking</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Code Examples Section -->
+    <div class="py-20">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16">Implementation Examples</h2>
+            
+            <div class="space-y-8">
+                
+                <!-- AI Content Suggestion Example -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">AI Content Suggestion</h3>
+                    <div class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
+                        <pre><code>// Using OpenAI API (Free Tier)
+const suggestion = await apiService.getAIContentSuggestion(
+    "Developed web applications",
+    "experience"
+);
+
+// Returns: "Developed 5+ web applications using React and Node.js, 
+// improving user engagement by 30% and reducing load times by 40%"</code></pre>
+                    </div>
+                </div>
+
+                <!-- ATS Compatibility Example -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">ATS Compatibility Check</h3>
+                    <div class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
+                        <pre><code>// Using Resume Parser API (Free Tier)
+const atsScore = await apiService.checkATSCompatibility(
+    resumeContent
+);
+
+// Returns: 85 (percentage score)
+// Checks for keywords, formatting, and structure</code></pre>
+                    </div>
+                </div>
+
+                <!-- Analytics Tracking Example -->
+                <div class="bg-white rounded-xl p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Analytics Tracking</h3>
+                    <div class="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
+                        <pre><code>// Using Google Analytics (Free)
+apiService.trackEvent('resume_created', {
+    'event_category': 'resume_builder',
+    'event_label': 'ai_suggestions_used',
+    'value': 1
+});
+
+// Tracks user interactions and feature usage</code></pre>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="gradient-bg text-white py-20">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-6">Ready to Build Your Resume?</h2>
+            <p class="text-xl mb-8">Start creating your professional resume with AI-powered suggestions today!</p>
+            <div class="flex justify-center space-x-4">
+                <a href="index.html" class="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Start Building
+                </a>
+                <a href="https://github.com/yourusername/ai-resume-builder" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-gray-400">Built with ❤️ using free APIs and modern web technologies</p>
+            <p class="text-sm text-gray-500 mt-2">Perfect for your portfolio and resume!</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
