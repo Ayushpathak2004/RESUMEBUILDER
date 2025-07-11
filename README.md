@@ -215,35 +215,6 @@ The project includes a comprehensive analytics dashboard that tracks:
 - **Print Ready**: Perfect for physical copies
 - **Customizable**: Easy to modify
 
-## 🚀 Deployment
-
-### GitHub Pages (Free)
-```bash
-# Push to GitHub
-git add .
-git commit -m "Initial commit"
-git push origin main
-
-# Enable GitHub Pages in repository settings
-# Your site will be available at: https://username.github.io/repository-name
-```
-
-### Netlify (Free)
-```bash
-# Connect your GitHub repository to Netlify
-# Automatic deployments on every push
-# Custom domain support
-```
-
-### Vercel (Free)
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
-
 ## 🔒 Privacy & Security
 
 - **No Data Storage**: All data stays in your browser
@@ -251,16 +222,6 @@ vercel
 - **Secure APIs**: Only uses HTTPS connections
 - **No Tracking**: Respects user privacy
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -269,23 +230,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Feather Icons** for beautiful icons
 - **jsPDF** for PDF generation
 
-## 📞 Support
 
-- **Issues**: Report bugs on GitHub
-- **Discussions**: Ask questions in GitHub Discussions
-- **Email**: support@ai-resume-builder.com
-
-## 🎯 Roadmap
-
-- [ ] **Multi-language Support**
-- [ ] **Advanced AI Features**
-- [ ] **More Templates**
-- [ ] **Mobile App**
-- [ ] **Collaboration Features**
-- [ ] **Integration with Job Boards**
-
----
-
-**Built with ❤️ using free APIs and modern web technologies**
 
 *Perfect for your portfolio and resume!* 
