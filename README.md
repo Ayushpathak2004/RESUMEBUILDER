@@ -10,11 +10,6 @@ A sophisticated resume builder with AI-powered suggestions, real-time analytics,
 - **Keyword Optimization**: Automatic suggestions for relevant keywords
 - **Readability Analysis**: Advanced text analysis for better readability
 
-### 📊 Real-Time Analytics
-- **ATS Score**: Track your resume's compatibility with ATS systems
-- **Readability Score**: Measure how easy your resume is to read
-- **Impact Score**: Evaluate the effectiveness of your content
-- **Live Preview**: See changes instantly as you type
 
 ### 🎨 Professional Templates
 - **Modern Design**: Clean and professional layouts
